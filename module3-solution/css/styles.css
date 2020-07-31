@@ -62,8 +62,20 @@ body {
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #7d1913;
+    
+
 }
 
+@media (max-width: 576px){
+    button.navbar-toggle {
+   float: right;
+   
+}
+
+
+}
+
+ 
 
 /** END HEADER */
 
